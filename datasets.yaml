@@ -1,0 +1,9 @@
+train: processed_datasets/train/images
+val: processed_datasets/val/images
+test: processed_datasets/test/images
+
+nc: 2  # number of classes
+
+names:
+  0: real_face
+  1: photo_face

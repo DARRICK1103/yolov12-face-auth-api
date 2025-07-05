@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# macOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded files or test data
+uploads/
+inference_output/
+*.jpg
+*.png
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# FastAPI specific
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pydantic/Ultralytics cache
+__pycache__/
+*.ultralytics/
+
+# My custom folders (optional)
+test_output/
+temp/
